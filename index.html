@@ -13,7 +13,19 @@
     <link rel="stylesheet" href="src/sass/main.scss" />
     <script defer src="src/js/controller.js"></script>
 
-    <title>forkify // Search over 1,000,000 recipes</title>
+    <title>food-recipe // Search over 1,000,000 recipes</title>
+    <script type="text/javascript">
+  var appInsights=window.appInsights||function(config){
+    function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}
+    var t={config:config},u=document,e=window,o="script",s=u.createElement(o),
+    i,f;for(s.src=config.url||"https://js.monitor.azure.com/scripts/b/ai.2.min.js",
+    u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.queue=[],i=["trackEvent","trackPageView","trackException","trackTrace","trackDependencyData","setAuthenticatedUserContext","clearAuthenticatedUserContext","startTrackPage","stopTrackPage","flush"],f=0;f<i.length;f++)r(i[f]);
+    return t
+  }({
+    connectionString: "InstrumentationKey=977fba56-cde8-4709-b8e7-d52420a1bfd3;IngestionEndpoint=https://centralindia-0.in.applicationinsights.azure.com/;LiveEndpoint=https://centralindia.livediagnostics.monitor.azure.com/;ApplicationId=50c10d75-3a9b-4059-b36b-849ebdb7f41e"
+  });
+  appInsights.trackPageView();
+</script>
   </head>
 
   <body>
